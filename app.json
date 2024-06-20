@@ -27,7 +27,12 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      [
+        "expo-image-picker",
+        {
+          "cameraPermissio": "Allow access to camera in order to take photos of your favorite paces"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
